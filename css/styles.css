@@ -33,6 +33,10 @@ li{
   list-style: none;
 }
 
+.purple{
+  color:#7342d6;
+}
+
 .nav__logo{
   width:150px;
   height: 150px;
@@ -89,7 +93,7 @@ nav{
 .header__container{
   height:calc(100vh - 80px);
   width:100%;
-  max-width:500px;
+  max-width:600px;
   margin:0 auto;
   display:flex;
   flex-direction: column;
@@ -99,11 +103,7 @@ nav{
 }
 
 .header__description{
-width:500px;
-display:flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+ text-align: center;
 }
 
 .title__description{
@@ -114,8 +114,8 @@ align-items: center;
 }
 
 .header__description{
-  font-size: 20px;
-  margin-bottom:12px;
+  font-size: 24px;
+  margin-bottom:24px;
 }
 
 .btn{
@@ -125,6 +125,10 @@ align-items: center;
   font-size: 18px;
   border:12px solid #7342d6;
   border-radius: 12px;
+}
+
+.header__img--wrapper{
+  padding:0 12px;
 }
 
 
